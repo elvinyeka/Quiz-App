@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Quiz - Page</title>
+</head>
+
+<body>
+
+    <div class="container mt">
+        <div id="game" class="justify-center flex-center">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progressText" class="hud-prefix">Sual</p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">Ballar</p>
+                    <h1 class="hud-main-text" id="score">0</h1>
+                </div>
+            </div>
+            <h1 id="question">What is the answer to this question</h1>
+            <div class="choise-container">
+                <p class="choise-prefix">A</p>
+                <p class="choise-text" data-number="1">Choise 1</p>
+            </div>
+            <div class="choise-container">
+                <p class="choise-prefix">B</p>
+                <p class="choise-text" data-number="2">Choise 2</p>
+            </div>
+            <div class="choise-container">
+                <p class="choise-prefix">C</p>
+                <p class="choise-text" data-number="3">Choise 3</p>
+            </div>
+            <div class="choise-container">
+                <p class="choise-prefix">D</p>
+                <p class="choise-text" data-number="4">Choise 4</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/assets/js/game.js"></script>
+</body>
+
+</html>
