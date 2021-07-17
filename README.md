@@ -1,3 +1,3 @@
 # Quiz-App
 
-Demo Link: [https://elvinyeka.github.io/Quiz-App/](https://elvinyeka.github.io/Quiz-App/)
+Demo Link: [https://quiz-app-elvin.netlify.app/](https://quiz-app-elvin.netlify.app/)
